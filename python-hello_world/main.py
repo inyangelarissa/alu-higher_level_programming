@@ -1,2 +1,2 @@
 #!usr/bin/pyhton3
-print("best school")
+print(f"best school: {88+10}")
