@@ -1,2 +1,2 @@
-# alu-higher_level_programming
-first python test
+#!/bin/bash
+print("best school")
