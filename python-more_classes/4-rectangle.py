@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """Defines a rectangle"""
 
@@ -68,4 +67,3 @@ class Rectangle:
     def __repr__(self):
         """Prints the string representation of the rectangle officially"""
         return "Rectangle({}, {})".format(self.__width, self.__height)
-
