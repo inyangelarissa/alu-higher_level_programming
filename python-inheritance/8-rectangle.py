@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 '''creates a subclass Rectangle of parent class BaseGeometry'''
 

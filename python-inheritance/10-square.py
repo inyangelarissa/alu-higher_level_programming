@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 '''creates a subclass Square from Rectangle'''
 
