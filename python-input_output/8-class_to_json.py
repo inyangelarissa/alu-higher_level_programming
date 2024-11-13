@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-'''script from javascript object notation(JSON) to object'''
+'''function that returns the dictionary description'''
 
 
-import json
-
-
-def from_json_string(my_obj):
-    '''from json to object'''
-    return json.loads(my_obj)
+def class_to_json(obj):
+    '''returns the dictionary description with simple data structure'''
+    return obj.__dict__
