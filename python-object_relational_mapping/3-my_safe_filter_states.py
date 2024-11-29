@@ -9,7 +9,10 @@ import MySQLdb
 if __name__ == "__main__":
     # Ensure proper usage
     if len(sys.argv) != 5:
-        print("Usage: ./3-my_safe_filter_states.py <mysql_username> <mysql_password> <database_name> <state_name>")
+        print(
+            "Usage: ./3-my_safe_filter_states.py <mysql_username> "
+            "<mysql_password> <database_name> <state_name>"
+        )
         sys.exit(1)
 
     # Retrieve command-line arguments
@@ -46,4 +49,3 @@ if __name__ == "__main__":
         # Close the database connection
         if 'db' in locals() and db.open:
             db.close()
-
