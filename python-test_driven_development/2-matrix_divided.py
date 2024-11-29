@@ -1,6 +1,6 @@
 
 #!/usr/bin/python3
-# ''' Dividing all the elements in a matrix by defining a function '''
+'#' ''' Dividing all the elements in a matrix by defining a function '''
 
 
 def matrix_divided(matrix, div):
