@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """
 Module 3-error_code.py

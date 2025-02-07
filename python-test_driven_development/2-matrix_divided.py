@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 ''' Dividing all the elements in a matrix by defining a function '''
 
@@ -40,4 +39,3 @@ def matrix_divided(matrix, div):
             row.append(round((j / div), 2))
         new_matrix.append(row)
     return new_matrix
-
